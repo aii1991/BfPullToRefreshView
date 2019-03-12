@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.boildcoffee.library.widget.BfPullToRefreshView
+    android:id="@+id/bfprv"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.boildcoffee.bfrefreshview.ui.ScrollViewActivity">
+
+    <ScrollView
+        android:id="@+id/sc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="aaaaaaa"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:text="bbbbb"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:text="ccccccc"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:text="dddddd"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:text="eeeeee"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+
+            <TextView
+                android:text="fffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</com.boildcoffee.library.widget.BfPullToRefreshView>
+
